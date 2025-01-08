@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff0000; /* Red theme */
+    padding: 10px 20px;
+    color: white;
+    flex-shrink: 0;
+}
+
+header .Logo img {
+    height:40px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header li a:hover {
+    color: #ccd0ff; /* Light red for hover effect */
+}
+
+/* Main Section */
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/css/img/bg.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+main img {
+    width: 250px;
+    margin-bottom: 28px;
+}
+
+main p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main input {
+    padding: 10px;
+    width: 60%;
+    max-width: 500px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+main button{
+    padding: 50;
+    width: 10%;
+    max-width: 500px;
+    margin-top: 3.5%;
+    color: #fff4f4;
+    background-color: #ff0000;
+    
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+.face a{
+    color: #ccd0ff;
+    text-decoration:#ccd0ff;
+}
+.face a:hover{
+    color: #130bf0;
+    font-weight: 1000;
+    font-size: medium;
+}
